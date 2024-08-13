@@ -1,0 +1,100 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background: #171717;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.navbar a img {
+    background-color: #9A9A9A;
+    height: 40px;
+    width: 100px;
+    transition-duration: 0.3s;
+}
+
+.navbar a img:hover {
+    background-color: white;
+}
+
+.navbar div a {
+    color: #9A9A9A;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 25px;
+    transition-duration: 0.1s;
+    font-style: sans-serif;
+}
+
+.navbar div a:hover {
+    color: white;
+}
+
+.midcontainer .upper h1 {
+    color: white;
+    font-size: 150px;
+    font-style: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-style: sans-serif;
+}
+
+.midcontainer .upper p {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-style: sans-serif;
+    color: #9A9A9A;
+}
+
+.midcontainer .lower a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower {
+    color: #9A9A9A;
+}
+
+.lower a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition-duration: 0.1s;
+}
+
+.lower a span{
+    font-size: 20px;
+    font-style: sans-serif;
+}
+
+.lower .myhr {
+    border:inset 0.1px #9A9A9A;
+}
+
+.lower .line {
+    color: white;
+}
+
+.lower a:hover {
+    color: white !important;
+    cursor: pointer;
+}
+
+.foot p {
+    color: #9A9A9A;
+    text-align: center;
+    font-style: sans-serif;
+}
+
+.foot {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
